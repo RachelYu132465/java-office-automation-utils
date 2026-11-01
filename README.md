@@ -155,6 +155,8 @@ You can use the report-generation methods separately if you already have the req
 
 You do not have to run test.ExcelForRu to use every class in this repository. Several classes provide reusable operations. They can be called from another Java class, as long as you include the project dependencies and any required supporting classes.
 
+This repository includes code for manipulating Microsoft Word and Excel files, which is likely the most commonly used feature for general users. However, please note that the structural logic of Word is completely different from Excel's. If you wish to modify the document layout, you will need to be careful and take your time. 
+
 ### A. msexcel.Excel — reusable Excel helper
 
 This is the central Excel wrapper around Apache POI. It provides methods for loading or creating workbooks, selecting sheets/rows/cells, reading and writing values, and saving workbooks.
